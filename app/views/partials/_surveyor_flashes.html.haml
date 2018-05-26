@@ -1,0 +1,5 @@
+- types = flash.keys.map(&:to_sym).select { |k| [:notice, :error, :warning].include?(k) }
+- if types.any?
+  .surveyor_flash
+    = flash_messages(types)
+    .close
