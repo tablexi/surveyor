@@ -1,0 +1,5 @@
+- types = flash.keys.map(&:to_sym) & [:notice, :error, :warning]
+- if types.any?
+  .surveyor_flash
+    = flash_messages(types)
+    .close
