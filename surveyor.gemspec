@@ -26,16 +26,17 @@ Gem::Specification.new do |s|
   s.add_dependency('rabl', '~> 0.6')
 
   s.add_development_dependency('yard')
-  s.add_development_dependency('rake')
+  s.add_development_dependency('rake', '< 11')
   s.add_development_dependency('sqlite3')
-  s.add_development_dependency('bundler', '~> 1.6.1')
+  s.add_development_dependency('bundler', '>= 1.6.1')
   s.add_development_dependency('rspec-rails', '~> 2.14.2')
   s.add_development_dependency('capybara', '~> 2.2.1')
   s.add_development_dependency('launchy', '~> 2.4.2')
-  s.add_development_dependency('poltergeist', '~>1.5.0')
+  s.add_development_dependency('poltergeist')
   s.add_development_dependency('json_spec', '~> 1.1.1')
   s.add_development_dependency('factory_girl', '~> 4.4.0')
   s.add_development_dependency('database_cleaner', '~> 1.2.0')
-  s.add_development_dependency('rspec-retry')
+  s.add_development_dependency('rspec-retry', '< 0.4.5')
+  s.add_development_dependency('test-unit')
 end
 

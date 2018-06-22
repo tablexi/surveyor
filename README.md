@@ -24,7 +24,7 @@ without maintaining a fork.
 
 Surveyor works with:
 
-* Ruby 2.0.0 and 2.1.1
+* Ruby 2.0.0 and 2.1.1, 2.3.7
 * Rails 3.2 and 4.0
 
 In keeping with the Rails team maintenance [policy] we no longer support Rails 3.1 (stick with v1.4.0 if you need Rails 3.1) or Ruby 1.9.3 (stick with v1.4.0 if you need Ruby 1.8.7 or 1.9.3).
